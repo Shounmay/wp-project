@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>home</title>
+
+		<link rel="stylesheet" href="./style.css" />
+
+		<script src="/script.js" defer></script>
+
+		<script
+			src="https://kit.fontawesome.com/1ef8423250.js"
+			crossorigin="anonymous"
+		></script>
+	</head>
+	<body>
+		<header class="header">
+			<a href="home.html" class="logo">
+				<img src="./images/logo.png" alt="" />
+			</a>
+
+			<nav class="navbar">
+				<ul>
+					<li style="margin-top: 10px"><a href="home.html">Home</a></li>
+					<li style="margin-top: 10px"><a href="products.html">Products</a></li>
+
+					<li style="margin-top: 10px"><a href="contact.html">contact</a></li>
+
+					<li>
+						<a style="margin-left: 329%" href="#"
+							><img class="profile" src="./profile.png" alt=""
+						/></a>
+
+						<ul style="margin-left: 329%">
+							<li><a href="login.html">login</a></li>
+							<li><a href="register.html">register</a></li>
+						</ul>
+					</li>
+				</ul>
+			</nav>
+
+			<div class="icons">
+				<div id="search-btn" class="fas fa-search"></div>
+				<a href="cart.html" class="fas fa-shopping-cart"></a>
+			</div>
+
+			<form action="" class="search-form">
+				<input
+					type="search"
+					name=""
+					placeholder="search here..."
+					id="search-box"
+				/>
+				<label for="search-box" class="fas fa-search"></label>
+			</form>
+		</header>
+
+		<section class="home">
+			<div
+				class="slide active"
+				style="background: url(images/home-bg-1.png) no-repeat"
+			></div>
+
+			<div
+				class="slide"
+				style="background: url(images/modified_banner-3.png) no-repeat"
+			></div>
+
+			<div id="next-slide" onclick="next()" class="fas fa-angle-right"></div>
+			<div id="prev-slide" onclick="prev()" class="fas fa-angle-left"></div>
+		</section>
+
+		<section class="products">
+			<div class="box-container">
+				<div class="box">
+					<div class="image">
+						<div class="icons">
+							<a href="#" class="fas fa-shopping-cart"></a>
+							<a href="#" class="fas fa-share"></a>
+							<a href="#" class="fas fa-eye"></a>
+						</div>
+						<img src="images/product-1.jpg" alt="" />
+					</div>
+					<div class="content">
+						<h3>premium glass-9</h3>
+						<div class="stars">
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star-half-alt"></i>
+						</div>
+						<div class="price">Rs.3200 <span>Rs.4000</span></div>
+					</div>
+				</div>
+
+				<div class="box">
+					<div class="image">
+						<div class="icons">
+							<a href="#" class="fas fa-shopping-cart"></a>
+							<a href="#" class="fas fa-share"></a>
+							<a href="#" class="fas fa-eye"></a>
+						</div>
+						<img src="images/product-1.jpg" alt="" />
+					</div>
+					<div class="content">
+						<h3>premium glass-8</h3>
+						<div class="stars">
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star-half-alt"></i>
+						</div>
+						<div class="price">Rs.300 <span>Rs.550</span></div>
+					</div>
+				</div>
+
+				<div class="box">
+					<div class="image">
+						<div class="icons">
+							<a href="#" class="fas fa-shopping-cart"></a>
+							<a href="#" class="fas fa-share"></a>
+							<a href="#" class="fas fa-eye"></a>
+						</div>
+						<img src="images/product-1.jpg" alt="" />
+					</div>
+					<div class="content">
+						<h3>premium glass-7</h3>
+						<div class="stars">
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star-half-alt"></i>
+						</div>
+						<div class="price">Rs.1300 <span>Rs.2300</span></div>
+					</div>
+				</div>
+
+				<div class="box">
+					<div class="image">
+						<div class="icons">
+							<a href="#" class="fas fa-shopping-cart"></a>
+							<a href="#" class="fas fa-share"></a>
+							<a href="#" class="fas fa-eye"></a>
+						</div>
+						<img src="images/product-1.jpg" alt="" />
+					</div>
+					<div class="content">
+						<h3>premium glass-6</h3>
+						<div class="stars">
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star-half-alt"></i>
+						</div>
+						<div class="price">Rs.500 <span>Rs.900</span></div>
+					</div>
+				</div>
+
+				<div class="box">
+					<div class="image">
+						<div class="icons">
+							<a href="#" class="fas fa-shopping-cart"></a>
+							<a href="#" class="fas fa-share"></a>
+							<a href="#" class="fas fa-eye"></a>
+						</div>
+						<img src="images/product-1.jpg" alt="" />
+					</div>
+					<div class="content">
+						<h3>premium glass-5</h3>
+						<div class="stars">
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star-half-alt"></i>
+						</div>
+						<div class="price">Rs.5300 <span>Rs.7800</span></div>
+					</div>
+				</div>
+
+				<div class="box">
+					<div class="image">
+						<div class="icons">
+							<a href="#" class="fas fa-shopping-cart"></a>
+							<a href="#" class="fas fa-share"></a>
+							<a href="#" class="fas fa-eye"></a>
+						</div>
+						<img src="images/product-1.jpg" alt="" />
+					</div>
+					<div class="content">
+						<h3>premium glass-4</h3>
+						<div class="stars">
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star-half-alt"></i>
+						</div>
+						<div class="price">Rs.2300 <span>Rs.3000</span></div>
+					</div>
+				</div>
+
+				<div class="box">
+					<div class="image">
+						<div class="icons">
+							<a href="#" class="fas fa-shopping-cart"></a>
+							<a href="#" class="fas fa-share"></a>
+							<a href="#" class="fas fa-eye"></a>
+						</div>
+						<img src="images/product-1.jpg" alt="" />
+					</div>
+					<div class="content">
+						<h3>premium glass-3</h3>
+						<div class="stars">
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star-half-alt"></i>
+						</div>
+						<div class="price">Rs.300 <span>Rs.450</span></div>
+					</div>
+				</div>
+
+				<div class="box">
+					<div class="image">
+						<div class="icons">
+							<a href="#" class="fas fa-shopping-cart"></a>
+							<a href="#" class="fas fa-share"></a>
+							<a href="#" class="fas fa-eye"></a>
+						</div>
+						<img src="images/product-1.jpg" alt="" />
+					</div>
+					<div class="content">
+						<h3>premium glass-2</h3>
+						<div class="stars">
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star-half-alt"></i>
+						</div>
+						<div class="price">Rs.300 <span>Rs.500</span></div>
+					</div>
+				</div>
+
+				<div class="box">
+					<div class="image">
+						<div class="icons">
+							<a href="#" class="fas fa-shopping-cart"></a>
+							<a href="#" class="fas fa-share"></a>
+							<a href="#" class="fas fa-eye"></a>
+						</div>
+						<img src="images/product-1.jpg" alt="" />
+					</div>
+					<div class="content">
+						<h3>premium glass-1</h3>
+						<div class="stars">
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star-half-alt"></i>
+						</div>
+						<div class="price">Rs.6700 <span>Rs.10000</span></div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="footer">
+			<div class="box-container">
+				<div class="box">
+					<a href="#"> <i class="fab fa-twitter"></i> twitter </a>
+				</div>
+
+				<div class="box">
+					<a href="#"> <i class="fab fa-instagram"></i> instagram </a>
+				</div>
+				<div class="box">
+					<a href="#"> <i class="fab fa-pinterest"></i> pinterest </a>
+				</div>
+				<div class="box">
+					<a href="#"> <i class="fab fa-linkedin"></i> linkedin </a>
+				</div>
+			</div>
+		</section>
+	</body>
+</html>
