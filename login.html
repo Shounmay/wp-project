@@ -12,8 +12,6 @@
 		></script>
 
 		<link rel="stylesheet" href="style.css" />
-
-		<script src="script.js" defer></script>
 	</head>
 	<body>
 		<header class="header">
@@ -67,18 +65,29 @@
 				<h3>user login</h3>
 				<div class="inputBox">
 					<span class="fas fa-user"></span>
-					<input type="email" name="" placeholder="enter your email" id="" />
+					<input
+						type="text"
+						name=""
+						placeholder="enter your email"
+						id="emailInput"
+					/>
 				</div>
 				<div class="inputBox">
 					<span class="fas fa-lock"></span>
 					<input
-						type="password"
+						type="text"
 						name=""
 						placeholder="enter your password"
-						id=""
+						id="pass"
 					/>
 				</div>
-				<input type="submit" value="sign in" class="btn" />
+				<input
+					type="submit"
+					onclick="fun()"
+					value="sign in"
+					class="btn"
+					id="login-btn"
+				/>
 				<div class="flex">
 					<input type="checkbox" name="" id="remember-me" />
 					<label for="remember-me">remember me</label>
@@ -106,4 +115,5 @@
 			</div>
 		</section>
 	</body>
+	<script src="./login.js"></script>
 </html>

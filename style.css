@@ -1,6 +1,6 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
 * {
-	font-family: "Poppins", sans-serif;
+	font-family: 'Poppins', sans-serif;
 	margin: 0;
 	padding: 0;
 	-webkit-box-sizing: border-box;
@@ -487,14 +487,14 @@ section {
 	color: darkred;
 }
 
-.login-form form input[type="submit"],
-.register-form form input[type="submit"] {
+.login-form form input[type='submit'],
+.register-form form input[type='submit'] {
 	background: #333;
 	color: #fff;
 }
 
-.login-form form input[type="submit"]:hover,
-.register-form form input[type="submit"]:hover {
+.login-form form input[type='submit']:hover,
+.register-form form input[type='submit']:hover {
 	background: darkred;
 }
 
@@ -639,6 +639,10 @@ section {
 	font-size: 1.5rem;
 	color: #666;
 	margin-bottom: 1rem;
+}
+
+.cartCount {
+	font-size: 12pt;
 }
 
 @media (max-width: 1200px) {

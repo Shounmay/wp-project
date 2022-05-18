@@ -65,8 +65,27 @@
 		<section class="products">
 			<h1 class="title">featured products</h1>
 
-			<div class="box-container">
-				<div class="box">
+			<div class="box-container" id="products-box">
+				<script>
+					var xhttp = new XMLHttpRequest();
+
+					let data = null;
+
+					fetch('products.json')
+						.then((res) => res.json())
+						.then((resData) => {
+							data = resData;
+							console.log(data);
+
+							data.forEach((element) => {
+								document.getElementById(
+									'products-box'
+								).innerHTML += `<div class='box'><div class="image"><div class="icons"><a href="#" class="fas fa-shopping-cart"></a><a href="#" class="fas fa-share"></a><a href="#" class="fas fa-eye"></a></div><img src="${element.image}" alt="" /></div><div class="content"> <h3>${element.name}</h3><div class="stars"> <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></div> <div class="price"> ${element.actual_price}<span>${element.discounted_price}</span></div></div></div>`;
+							});
+						});
+				</script>
+
+				<!-- <div class="box">
 					<div class="image">
 						<div class="icons">
 							<a href="#" class="fas fa-shopping-cart"></a>
@@ -263,6 +282,7 @@
 						<div class="price">Rs.6700 <span>Rs.10000</span></div>
 					</div>
 				</div>
+			 -->
 			</div>
 		</section>
 

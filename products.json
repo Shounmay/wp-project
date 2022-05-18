@@ -1,0 +1,47 @@
+[
+    {   "image":"images/product-1.jpg",
+        "name":"Glass-1",
+        "actual_price":"4000",
+        "discounted_price":"3500"
+    },
+    {   "image":"images/product-1.jpg",
+        "name":"Glass-1",
+        "actual_price":"4000",
+        "discounted_price":"3500"
+    },
+    {   "image":"images/product-1.jpg",
+        "name":"Glass-1",
+        "actual_price":"4000",
+        "discounted_price":"3500"
+    },
+    {   "image":"images/product-1.jpg",
+        "name":"Glass-1",
+        "actual_price":"4000",
+        "discounted_price":"3500"
+    },
+    {   "image":"images/product-1.jpg",
+        "name":"Glass-1",
+        "actual_price":"4000",
+        "discounted_price":"3500"
+    },
+    {   "image":"images/product-1.jpg",
+        "name":"Glass-1",
+        "actual_price":"4000",
+        "discounted_price":"3500"
+    },
+    {   "image":"images/product-1.jpg",
+        "name":"Glass-1",
+        "actual_price":"4000",
+        "discounted_price":"3500"
+    },
+    {   "image":"images/product-1.jpg",
+        "name":"Glass-1",
+        "actual_price":"4000",
+        "discounted_price":"3500"
+    },
+    {   "image":"images/product-1.jpg",
+        "name":"Glass-1",
+        "actual_price":"4000",
+        "discounted_price":"3500"
+    }
+]

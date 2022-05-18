@@ -12,8 +12,6 @@
 		></script>
 
 		<link rel="stylesheet" href="style.css" />
-
-		<script src="script.js" defer></script>
 	</head>
 	<body>
 		<header class="header">
@@ -67,31 +65,42 @@
 				<h3>register now</h3>
 				<div class="inputBox">
 					<span class="fas fa-user"></span>
-					<input type="text" name="" placeholder="enter your name" id="" />
+					<input
+						type="text"
+						name=""
+						placeholder="enter your name"
+						id="nameInput"
+					/>
 				</div>
 				<div class="inputBox">
 					<span class="fas fa-envelope"></span>
-					<input type="email" name="" placeholder="enter your email" id="" />
+					<input
+						type="text"
+						id="emailInput"
+						name=""
+						placeholder="enter your email"
+					/>
 				</div>
 				<div class="inputBox">
 					<span class="fas fa-lock"></span>
 					<input
-						type="password"
+						type="text"
 						name=""
 						placeholder="enter your password"
-						id=""
+						id="newPassword"
 					/>
 				</div>
 				<div class="inputBox">
 					<span class="fas fa-lock"></span>
 					<input
-						type="password"
+						type="text"
 						name=""
 						placeholder="confirm your password"
-						id=""
+						id="confirmPassword"
 					/>
 				</div>
-				<input type="submit" value="sign up" class="btn" />
+				<input type="submit" value="sign up" class="btn" id="submit-btn" />
+				<!-- <button class="btn" onclick="fun()" id="submit-btn">sign up</button> -->
 				<a href="login.html" class="btn">already have an account</a>
 			</form>
 		</section>
@@ -114,4 +123,5 @@
 			</div>
 		</section>
 	</body>
+	<script src="register.js"></script>
 </html>
